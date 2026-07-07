@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# IntelliJ / JetBrains
+.idea
+*.iml
+*.iws
