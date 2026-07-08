@@ -13,3 +13,6 @@ wheels/
 .idea
 *.iml
 *.iws
+
+# Environment variables
+.env
