@@ -16,7 +16,9 @@ py-core-api = "py_core_api.main:main"
 [dependency-groups]
 dev = [
     "pre-commit>=4.6.0",
+    "pytest>=9.1.1",
     "ruff>=0.15.20",
+    "ty>=0.0.56",
 ]
 
 [tool.pytest.ini_options]
@@ -32,3 +34,6 @@ select = ["E", "F", "I", "UP", "B"]
 
 [tool.ruff.format]
 quote-style = "double"
+
+[tool.ty.environment]
+python-version = "3.14"
